@@ -3,7 +3,7 @@ angular
 	.config(function ($stateProvider) {
 		$stateProvider
 			.state('settings', {
-				url: '/settings',
+				url: '/settings/hello',
 				templateUrl: 'views/settings.html',
 				controller: 'SettingsController'
 			})

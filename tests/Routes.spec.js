@@ -13,7 +13,7 @@ describe('Routes', function () {
 		it('should have the correct URL', function () {
 			state = $state.get('settings');
 
-			expect(state.url).toEqual('/settings');
+			expect(state.url).toEqual('/settings/hello');
 		});
 	});
 });
